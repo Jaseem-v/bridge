@@ -25,6 +25,15 @@ $(window).on('scroll', function () {
     }
 
 });
+$(window).on('scroll', function () {
+    if ($(window).scrollTop() > 200) {
+        $('#land-nav').addClass('sticky')
+    } else {
+        $('#land-nav').removeClass('sticky')
+
+    }
+
+});
 
 
 

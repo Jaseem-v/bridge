@@ -29,6 +29,8 @@ body {
   font-weight: 400;
   // overflow: hidden;
   background: #f8f8fb;
+  background: #c8e4e3;
+  background-color: #f3f8fc;
 }
 
 img {
@@ -114,6 +116,8 @@ html {
   display: inline-block;
   text-align: center;
   overflow: hidden;
+
+
 
   span {
     position: absolute;
@@ -332,6 +336,17 @@ html {
 
 .section-padding {
   padding: 8rem 0rem;
+
+  &--procedure{
+    padding: 4rem 0;
+
+  }
+  &--f{
+    padding: 8rem 0 4rem;
+  }
+  &--l{
+    padding: 4rem 0 8rem;
+  }
 
   @media only screen and (max-width: $bp-small) {
     padding: 7rem 1rem;
@@ -582,6 +597,10 @@ html {
   }
 }
 
-.row{
+.row {
   row-gap: 1.5rem !important;
+}
+
+.bg-grey {
+  background: #f1f5f9;
 }
