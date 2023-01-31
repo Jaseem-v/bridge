@@ -409,7 +409,6 @@ $background-color_3: #16425b;
     padding-bottom: 1rem;
 
     &-details {
-
       padding: 2rem 0 3rem 5rem;
     }
   }
@@ -425,6 +424,10 @@ $background-color_3: #16425b;
   &__body {
     padding: 0 2rem 4rem;
   }
+}
+
+.rounded-btn {
+  border-radius: 2rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');

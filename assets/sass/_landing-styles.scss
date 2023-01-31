@@ -389,6 +389,20 @@
 
         }
     }
+
+    &-contact {
+        min-height: 80vh;
+
+        &__content {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            min-height: 80vh;
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
 }
 
 
@@ -1043,7 +1057,7 @@ $background-color_6: #cd486b;
         -webkit-box-shadow: 0 0 10px #cccccc;
         -o-box-shadow: 0 0 10px #cccccc;
         box-shadow: 0 0 10px #cccccc;
-        padding: 40px 20px 20px;
+        padding:  20px 20px;
         position: relative;
         text-align: center;
         z-index: 9;
