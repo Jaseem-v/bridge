@@ -196,19 +196,8 @@ main {
       }
     }
 
-    &--3 {
-      margin-left: auto;
-
-      @media only screen and (max-width: $bp-xsmall) {
-        display: none;
-      }
-    }
-
-    &--1 {
-      @media only screen and (max-width: $bp-xsmall) {
-        display: none;
-      }
-    }
+  
+   
   }
 
   &__nvf {
@@ -416,7 +405,7 @@ $background-color_3: #16425b;
   &__bg {
     height: 20rem;
     width: 100%;
-    background-image: url("https://s3-alpha-sig.figma.com/hub/profile/105480/3c6d192d-2155-4c78-898f-a2c286a2a010_cover?Expires=1674432000&Signature=XK36LRAPow-AS0VzxPT1y9SxYBgwav9AsrO42VipuIVCK4z85Nt39jYi5ZYBLJhtcGS6Dn7DlZvFUkvxMqInLXKuYHzqYjG5mUFk9OVPDcZAC7O8VFv5HN7UL10G52c~lEUgzUb4RA3jPg9qP6EIfEgS2orGx7sp2rHu~nUdrBR0hu2~ueKP8oOtH9ChGuAyuzfuTQYru3WGnU3o-20tikh6ZVDj8qI7znjr0Tklvrjh8ykRQy4ncCcY-n01f8Zuk2oUAQXvQYU4sE2Ql-jirDvfYjcoHb-LvcCza0lpJZx~Q6CGzxMWkC1XwfYlB4qEROwqpWX3hTcEIzlfo-GVKA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-image: url("../img/profile-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
